@@ -3,9 +3,10 @@
 
 int main()
 {
-    float r,area;
-    printf("insert radius : \n");
-    scanf("%f", r);
+    float r;
+    float area;
+    printf("insert radius : ");
+    scanf("%f", &r);
 
     area = r*r*3.14;
 
